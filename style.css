@@ -3,8 +3,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 95vh;
-    background-color: rgb(173,204,204);
+    height: 90vh;
+    color: white;
+    background-color: rgb(10, 6, 75);
 }
 .container {
     background-color: rgba(255, 255, 255, 0.2);
@@ -36,7 +37,7 @@ textarea {
 }
 button {
     padding: 10px 20px;
-    background-color: #4caf50;
+    background-color: rgb(10, 6, 75);
     color: #ffffff;
     border: none;
     font-size: 16px;
@@ -46,12 +47,8 @@ button {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-button:hover {
-    background-color: #45a049;
-}
 #result {
     font-size: 20px;
     margin-top: 20px;
-    color: #000000;
     font-weight: bold;
 }
